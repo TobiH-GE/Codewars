@@ -9,8 +9,8 @@ namespace Best_travel
         {
             // https://www.codewars.com/kata/55e7280b40e1c4a06d0000aa solution by TobiH
 
-            List<int> ts = new List<int> { 50, 55, 56, 57, 58 };
-            int? n = SumOfK.chooseBestSum(163, 3, ts);
+            List<int> ts = new List<int> { 1000, 640, 1230, 2333, 1440, 500, 1320, 1230, 340, 890, 732, 1346 };
+            int? n = SumOfK.chooseBestSum(23331, 8, ts);
             Console.WriteLine($"result: {n}");
             Console.ReadLine();
         }
